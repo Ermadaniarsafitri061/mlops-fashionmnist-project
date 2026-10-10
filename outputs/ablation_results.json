@@ -1,0 +1,20 @@
+[
+  {
+    "run": "ablation-full",
+    "augment": true,
+    "dropout": true,
+    "best_val_accuracy": 0.8525
+  },
+  {
+    "run": "ablation-no-augmentation",
+    "augment": false,
+    "dropout": true,
+    "best_val_accuracy": 0.8641666666666666
+  },
+  {
+    "run": "ablation-no-dropout",
+    "augment": true,
+    "dropout": false,
+    "best_val_accuracy": 0.855
+  }
+]

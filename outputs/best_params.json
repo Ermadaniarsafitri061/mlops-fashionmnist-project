@@ -1,0 +1,10 @@
+{
+  "best_params": {
+    "lr": 0.0018296862615136385,
+    "batch_size": 32,
+    "channels": 24,
+    "dropout": 0.007321809674243186
+  },
+  "best_val_accuracy": 0.8258333333333333,
+  "trials": 20
+}
